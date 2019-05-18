@@ -6,8 +6,8 @@ using SonicBloom.Koreo;
 public class BallTest : MonoBehaviour {
 
     private Rigidbody rigidbodyCom;
-    public string eventID;
-    public float jumpSpeed;
+    public string eventID;      // 响应事件ID
+    public float jumpSpeed;     // 速度
 
 	// Use this for initialization
 	void Start () {
